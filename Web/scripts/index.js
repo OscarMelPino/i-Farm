@@ -1,3 +1,4 @@
+/*Álvaro Comentario*/
 document.addEventListener('DOMContentLoaded', () => {
     const btnCookie = document.getElementById('divCookies');
     btnCookie.onclick = () => {
