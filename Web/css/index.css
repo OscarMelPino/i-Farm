@@ -1,0 +1,134 @@
+@font-face {
+    font-family: 'ArchitectDaugther';
+    src: url('ArchitectsDaughter-Regular.ttf') format('truetype');
+}
+* {
+    margin: 10;
+}
+#divNavTitle{
+    position: fixed;
+    height: 5%;
+    width: 100%;
+}
+#divNavTitle > p {
+    font-family: 'ArchitectDaugther';
+    font-size: 8em;
+    color: rgb(136, 77, 0);
+    position: relative;
+    top: -300%;
+    margin-left: 10%;
+}
+body {
+    height: 100vh;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-color:rgba(210, 155, 80, 0.7);
+}
+
+.card {
+    margin-bottom: 20px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #0dc55aaf;
+    text-align: center;
+    transition: 0.25s;
+    left: 40%;
+    flex-wrap: wrap;
+    align-content: center;
+    margin-top: 15%;
+    border-radius: 3ch;
+    min-width: 280px;
+    min-height: 400px;
+}
+
+.box input[type="text"],
+.box input[type="password"] {
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #ffffff;
+    padding: 10px 10px;
+    width: 250px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s
+}
+
+.box h1 {
+    color: white;
+    text-transform: uppercase;
+    font-weight: 500
+}
+.box p {
+    color: white;
+}
+
+.box input[type="text"]:focus,
+.box input[type="password"]:focus {
+    width: 300px;
+    border-color: #bccc2e;
+}
+
+.box input[type="submit"] {
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #ffffff;
+    padding: 14px 40px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer;
+}
+
+.box input[type="submit"]:hover {
+    background: #31f0b0;
+}
+.registro{
+    text-decoration: underline;
+    margin-bottom: 10px; 
+}
+.forgot {
+    text-decoration: underline;
+}
+#divCookies {
+	background-color: black;
+	color: white;
+    position: fixed;
+    bottom: 0;
+    height: 5%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+#divCookies > button {
+    margin-left: 30px;
+    background-color: yellow;
+    color: crimson;
+}
+.centrarContenido{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ocultar {
+    display: none ;
+}
