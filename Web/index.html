@@ -1,54 +1,65 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>i-Farm</title>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/index.css" />
-    <script src="js/index.js"></script>
-    <script src="js/conections.js"></script>
-  </head>
+    <head>
+        <title>i-Farm</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="css/index.css" />
+        <script type="module" src="js/index.js"></script>
+    </head>
 
-  <body>
-    <nav>
-      <div id="divNavTitle">
-        <p>i-Farm</p>
-      </div>
-    </nav>
-    <div class="container">
-      <div class="row">
-        <div class="col-md-6">
-          <div class="card">
-            <form id="formLogin" action="" class="box">
-              <h1>Inicia sesion</h1>
-              <p class="text-muted">Introduce tu usuario y contraseña</p>
-              <input type="text" id="User" placeholder="Usuario" required />
-              <input
-                type="password"
-                id="Pass"
-                placeholder="Contraseña"
-                required
-              />
-              <a class="forgot text-muted" href=""
-                >¿Se te olvidó la contraseña?
-              </a>
-              <input type="submit" name="Login" value="Iniciar sesion" />
-              <p>
-                ¿No estás registrado?
-                <a class="registro" href=""> Haz click aquí.</a>
-              </p>
-            </form>
-          </div>
+    <body>
+        <nav>
+            <div id="divNavTitle">
+                <p>i-Farm</p>
+            </div>
+        </nav>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="card">
+                        <form id="formLogin" action="" class="box">
+                            <h1>Inicia sesion</h1>
+                            <p class="text-muted">
+                                Introduce tu usuario y contraseña
+                            </p>
+                            <input
+                                type="text"
+                                id="user"
+                                placeholder="Usuario"
+                                required
+                            />
+                            <input
+                                type="password"
+                                id="pass"
+                                placeholder="Contraseña"
+                                required
+                            />
+                            <a class="forgot text-muted" href=""
+                                >¿Se te olvidó la contraseña?
+                            </a>
+                            <input
+                                id="btnLogin"
+                                type="submit"
+                                name="Login"
+                                value="Iniciar sesion"
+                            />
+                            <p>
+                                ¿No estás registrado?
+                                <a class="registro" href=""> Haz click aquí.</a>
+                            </p>
+                        </form>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
-    </div>
-    <div id="divCookies" class="centrarContenido">
-      <p class="texto">
-        Este sitio utiliza cookies propias y de terceros. Si quieres saber más,
-        consulta nuestras
-        <a href=""> políticas de privacidad </a>
-      </p>
-      <button id="btnCookies">Aceptar</button>
-    </div>
-  </body>
+        <div id="divCookies" class="centrarContenido">
+            <p class="texto">
+                Este sitio utiliza cookies propias y de terceros. Si quieres
+                saber más, consulta nuestras
+                <a href=""> políticas de privacidad </a>
+            </p>
+            <button id="btnCookies">Aceptar</button>
+        </div>
+    </body>
 </html>
